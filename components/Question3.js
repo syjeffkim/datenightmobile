@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 export default function Question3({ navigation, route }) {
   const { city, activity } = route.params;
-  console.log(city);
+  console.log('question3', city);
   console.log(activity);
   const [meal, setMeal] = useState('');
 
